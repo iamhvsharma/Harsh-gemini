@@ -3,6 +3,10 @@ import './Main.css'
 import { assets } from '../../assets/assets'
 
 const Main = () => {
+
+  const [onSent, recentPrompt, showResult, loading, resultData, setInput, input]
+
+
   return (
     <div className='main'>
       <div className="nav">
